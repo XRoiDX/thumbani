@@ -102,7 +102,7 @@ def convertToScreenshot2(url):
 
 def get_screenshot(episodeid, large):
     url = (
-        f"https://animedexapi-private-124143.techzbots1.workers.dev/episode/{episodeid}"
+        f"https://usefull-ani-api1.theconquet11.workers.dev/episode/{episodeid}"
     )
     data = get_json(url)
     url = data["results"]["stream"]["sources"][0]["file"]
